@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  form(method='post', action='/fizzbuzz')
+        .input-group
+            input.form-control(type='text', placeholder='add input', name = "content")
+            span.input-group-btn
+                input.btn.btn-success(type='submit', value='submit')
