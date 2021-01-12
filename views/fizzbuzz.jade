@@ -3,3 +3,9 @@ extends layout
 block content
   each item in output
     p !{item}
+
+  button(onclick="move()") Go Back
+  script.
+    function move() {
+      window.location.href = '/'
+    }

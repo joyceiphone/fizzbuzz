@@ -9,7 +9,6 @@ var {
 router.post(
   '/',
   function (req, res, next) {
-    console.log(req.body);
     const input = req.body.content;
 
     const arr = input.split(',');
