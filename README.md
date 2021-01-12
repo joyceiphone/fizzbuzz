@@ -25,5 +25,5 @@ Open [http://localhost:3000](http://localhost:3000) and take a look around.
 
 ## Steps for input and result (recommended)
 
-Enter the items of the array separated by , in the input box and press enter button </br>
+Enter the items of the array separated by , in the input box and press the enter button </br>
 It will direct you to the result.
